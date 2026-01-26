@@ -1,0 +1,31 @@
+# ===== Python =====
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.ipynb_checkpoints/
+
+# ===== Conda / venv =====
+.env
+.venv
+conda/
+env/
+
+# ===== Data & artifacts (large / reproducible) =====
+data/used_weight/
+data/output/
+output/
+model_artifacts/
+
+# ===== Prediction outputs =====
+*.parquet
+*.ipc
+
+# ===== OS =====
+.DS_Store
+Thumbs.db
+
+# ===== Logs =====
+*.log
+# ===== Office temp files =====
+~$*.docx
